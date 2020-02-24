@@ -1,5 +1,8 @@
 version: 2.1
 
+orbs:
+  gitleaks: upenn-libraries/gitleaks@0.1.1
+
 workflows:
   check_for_secrets:
     jobs:
