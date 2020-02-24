@@ -7,4 +7,3 @@ orbs:
     check_for_secrets:
       jobs:
         - gitleaks/check_local
-version: 2.1
