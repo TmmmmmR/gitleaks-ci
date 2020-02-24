@@ -8,4 +8,4 @@ workflows:
     jobs:
       - gitleaks/check_local:
           image: quay.io/upennlibraries/gitleaks:v1.24.0
-          options: --redact --repo-config
+#          options: --redact --repo-config
